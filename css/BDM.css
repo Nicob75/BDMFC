@@ -1,0 +1,474 @@
+/*!
+ * BDM FC css (customized from Start Bootstrap - Creative Bootstrap Theme)
+ */
+
+body {
+    font-family: Arial !important;
+}
+
+header {
+	/*background-image: url(../img/BDM_nov_2016.jpg);*/
+	/*background-image: none;*/
+	background-image: url(../img/BDM_cover.jpg);
+	color: inherit;
+}
+
+@media (max-width: 768px) {
+	header .header-content {
+		padding-top: 36px;
+		padding-bottom: 36px;
+	}
+}
+
+header h1.non-mobile {
+	display: initial;
+}
+
+header h1.only-mobile {
+	display: none;
+}
+
+@media (max-width: 520px) {
+	header h1.non-mobile {
+		display: none;
+	}
+	header h1.only-mobile {
+		display: initial;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	header .header-content .header-content-inner p {
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+	}
+}
+
+
+header .header-content .header-content-inner p {
+	color: #fff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.navbar-default .nav > li > a {
+	color: #506391;
+}
+
+/***** GLOBAL *****/
+.bg-primary {
+    background-color: #506391;
+}
+
+.bg-secondary {
+	background-color: #edf0f6;
+}
+
+.link-list {
+	text-align: center;
+	/*TODO: list style remove chip;*/
+	list-style-type: none;
+	font-size: 1.2em;
+}
+
+.link-list > li {
+	margin: 1.5rem 0;
+}
+
+a,
+.navbar-default .nav > li > a {
+    color: #6277AB;
+}
+
+header .header-content a {
+	color: #AEC7FF;
+}
+
+.navbar-default .nav > li > a:hover {
+	/*border-color: #ccc;*/
+	/*border-width: 1px;*/
+	/*border-left: solid 1px #ddd;*/
+	border-bottom: solid 2px #569;
+	transition: none;
+}
+
+a:hover, a:focus,
+.navbar-default .nav > li > a:hover {
+    color: #343F57;
+}
+
+header .header-content a:hover, header .header-content a:focus {
+    color: #6277AB;
+}
+
+.navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
+	color: #819AD7 !important;
+	border-bottom: solid 2px #569;
+	transition: none;
+}
+
+hr {
+    border-color: #506391;
+}
+
+hr.small-hr {
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand {
+    color: #6277AB;
+    color: inherit;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand:hover {
+    color: #506391;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #819BDA;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+	color: #506391;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
+    color: #343F57;
+}
+
+.navbar-default.affix .nav > li > a:hover, .navbar-default.affix .nav > li > a:focus:hover {
+    color: #819AD7;
+}
+
+.blackShadowText {
+    text-shadow: 
+        -1px -1px 0px #000,
+        0px -1px 0px #000,
+        1px -1px 0px #000,
+        -1px 0px 0px #000,
+
+        1px 0px 0px #000,
+        -1px 1px 0px #000,
+        0px 1px 0px #000,
+        1px 1px 0px #000;
+}
+
+.rotate2 {
+	-webkit-transform: rotate(-90deg); /* Safari */
+	-moz-transform: rotate(-90deg); /* Firefox */
+	-ms-transform: rotate(-90deg); /* IE */
+	-o-transform: rotate(-90deg); /* Opera */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* Internet Explorer */
+}
+
+/** BUTTONS **/
+.btn-primary {
+    border-color: #6176A6;
+    color: #fff;
+    background-color: #506391;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	border-color: #6176A6;
+	color: #fff;
+	background-color: #343F57;
+}
+
+/***** WELCOME PAGE *****/
+/*.header-background {
+	background-image: url('../img/icons/logo_BDM.png');
+	opacity: 0.5;
+	width: 100%;
+	height: 256px;
+	position: relative;
+	top: calc(50%);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+}*/
+
+.header-main-title {
+	/*color: rgb(67, 85, 131);*/
+	color: #435583;
+	font-size: 65px;
+}
+
+p.header-side-title {
+	font-size: 24px !important;
+	margin-bottom: 0px !important;
+	color: #435583	 !important;
+	font-weight: 700 !important;;
+}
+
+.header-logo {
+	opacity: 0.9;
+	width: 192px;
+	height: 192px;
+}
+
+.header-logo-left {
+	float: left; 
+	position: relative;
+	left: 32px;
+}
+
+.header-logo-right {
+	float: right; 
+	position: relative;
+	right: 32px;
+}
+
+@media(max-width:1200px) {
+	.header-main-title {
+		font-size: 48px !important;
+	}
+
+	p.header-side-title,
+	header .header-content .header-content-inner p  {
+		font-size: 16px !important;
+	}
+
+	header .header-content .header-content-inner hr {
+		margin-top: 8px;
+		margin-bottom: 20px;
+	}
+
+	header .header-content .header-content-inner p {
+		margin-bottom: 20px;
+	}
+
+	.header-logo {
+		width: 128px;
+		height: 128px;
+	}
+}
+
+@media(max-width:848px) {
+	.header-main-title {
+		font-size: 32px !important;
+	}
+
+	.navbar-default .nav > li > a {
+		padding-left: 8px;
+		padding-right: 8px;
+		
+	}
+
+	.header-logo {
+		width: 96px;
+		height: 96px;
+	}
+}
+	
+
+@media (max-width:768px) {
+	.header-logo {
+		left: initial;
+		right: initial;
+		top: 12px;
+	}
+}
+
+@media (max-width:359px) {
+	.header-logo {
+		display: none;
+	}
+}
+
+a.header-icon:hover img {
+	filter: brightness(0.6);
+}
+
+.header-icon-legend {
+	color: #fff;
+	font-weight: 700 !important;
+	font-size: 16px;
+	position: relative;
+	top: 5px;
+	display: inherit;
+}
+
+.header-icon img {
+	width: 96px;
+	height: 96px;
+}
+
+/*TODO: change font !!*/
+.section-title {
+	color: #07183E;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.bg-primary .section-title {
+	color: #edf0f6;
+}
+
+.bg-secondary .section-title {
+	/*color: #07183E;*/
+	color: #435583;
+}
+
+/*TODO: change font !!*/
+.sub-section-title {
+	color: #07183E;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.bg-primary .sub-section-title {
+	color: #fff;
+}
+
+.bg-secondary .sub-section-title {
+	/*color: #07183E;*/
+	color: #435583;
+}
+
+.team-section-header {
+	/*PUT VERTICAL !!*/
+	/*FONT !!*/
+	/*COLOR!!*/
+	font-size: 24px;
+	/*display: inline-block;*/
+	/*height: 300px;*/
+	/*vertical-align: middle;*/
+}
+
+.test {
+	/*display: table-column;
+	text-align: center;*/
+}
+
+.test2 {
+	/*float: none;
+	display: table-row;
+	vertical-align: top;*/
+}
+
+.iframe-test {
+	width: calc(100% - 64px);
+	height:480px;
+	/*border: 0;*/
+	border: 2px solid #aaa;
+	margin-left: 32px;
+	margin-right: 32px;
+	overflow: auto;
+}
+
+#results-panel .iframe-test {
+	height: initial;
+}
+
+.season-controls-select {
+	color: #000;
+}
+
+.result-victory {
+	color: #6aa84f;
+}
+
+.result-withdraw {
+	/*color: #4E4;*/
+	/*background-color: #d9d9d9;*/
+	background-color: #bbb;
+}
+
+.result-draw {
+	color: #bf9000;
+}
+
+.result-defeat {
+	color: #cc0000;
+}
+
+table tr th.non-mobile,
+table tr td.non-mobile {
+	display: table-cell;
+}
+table tr th.only-mobile,
+table tr td.only-mobile {
+	display: none;
+}
+
+@media(max-width: 768px) {
+	table tr th.non-mobile,
+	table tr td.non-mobile {
+		display: none;
+	}
+	table tr th.only-mobile,
+	table tr td.only-mobile {
+		display: table-cell;
+	}
+}
+
+.team-button {
+	/*display: inline-block;*/
+	background-color: #68B;
+	color: #fff;
+}
+
+.team-button:hover {
+	/*display: inline-block;*/
+	background-color: #9AE;
+}
+
+#results-panel .table th {
+	background-color: #39859f;
+}
+
+#results-panel .table tbody {
+	background-color: #eee;
+	word-break: break-all;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+    border-top: 1px solid #ccc;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #a4c2e5;
+    border-color: #a4c2e5;
+}
+
+.table > tbody > tr > td {
+	padding: 3px;
+	word-break:break-word;
+	vertical-align: middle;
+}
+
+.table > tbody > tr > td:nth-child(1) {
+	padding: 0px !important;
+}
+
+.table > tbody > tr > td:nth-child(3),
+.table > tbody > tr > td:nth-child(4),
+.table > tbody > tr > td:nth-child(5) {
+	padding: 1px;
+}
+
+.portfolio-box .portfolio-box-caption {
+    background: rgba(141, 156, 191, 0.6);
+}
+
+/*.result-*/
+
+/*VIE DE L'EQUIPE*/
+.table-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.table-content-custom th {
+	text-align: center;
+}
+
+.table-content-custom td {	
+	border: solid 1px #000 !important;
+}
